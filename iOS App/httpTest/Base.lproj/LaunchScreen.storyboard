@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="63122548-lights-wallpapers" translatesAutoresizingMaskIntoConstraints="NO" id="WcZ-B5-ww5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="813"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5at-hF-Xqh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="813"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Cxo-JP-H9W">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="813"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smart Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="acy-OS-baW">
+                                            <rect key="frame" x="15" y="74" width="345" height="82.666666666666686"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="69"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                            <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="glow" translatesAutoresizingMaskIntoConstraints="NO" id="zEe-9s-oXR">
+                                            <rect key="frame" x="34" y="375" width="307" height="307"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="307" id="7z0-tp-pj0"/>
+                                                <constraint firstAttribute="height" constant="307" id="9Ox-RQ-ACM"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Key for Connected Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="pd5-e7-wn4">
+                                            <rect key="frame" x="15" y="157.66666666666666" width="345" height="36"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                            <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="zEe-9s-oXR" firstAttribute="centerX" secondItem="Cxo-JP-H9W" secondAttribute="centerX" id="3Fc-MC-gzj"/>
+                                        <constraint firstItem="acy-OS-baW" firstAttribute="top" secondItem="Cxo-JP-H9W" secondAttribute="top" constant="74" id="Bbg-oF-fe3"/>
+                                        <constraint firstItem="pd5-e7-wn4" firstAttribute="top" secondItem="acy-OS-baW" secondAttribute="bottom" constant="1" id="Rvd-tj-96z"/>
+                                        <constraint firstItem="pd5-e7-wn4" firstAttribute="leading" secondItem="Cxo-JP-H9W" secondAttribute="leading" constant="15" id="Sa5-aQ-ZsS"/>
+                                        <constraint firstItem="acy-OS-baW" firstAttribute="leading" secondItem="Cxo-JP-H9W" secondAttribute="leading" constant="15" id="leb-Sb-qXb"/>
+                                        <constraint firstAttribute="bottom" secondItem="zEe-9s-oXR" secondAttribute="bottom" constant="131" id="uam-ip-gKU"/>
+                                        <constraint firstAttribute="trailing" secondItem="acy-OS-baW" secondAttribute="trailing" constant="15" id="yOu-KM-omg"/>
+                                        <constraint firstAttribute="trailing" secondItem="pd5-e7-wn4" secondAttribute="trailing" constant="15" id="zMI-0o-RNd"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WcZ-B5-ww5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Km6-ps-WOj"/>
+                            <constraint firstItem="5at-hF-Xqh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Nd4-Uz-Lbo"/>
+                            <constraint firstItem="WcZ-B5-ww5" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="WGf-Xy-JyU"/>
+                            <constraint firstItem="WcZ-B5-ww5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bKj-jP-b30"/>
+                            <constraint firstItem="WcZ-B5-ww5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="35" id="die-D3-2Ng"/>
+                            <constraint firstItem="5at-hF-Xqh" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="pnv-hb-ILV"/>
+                            <constraint firstItem="5at-hF-Xqh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="35" id="pz0-8L-Tjr"/>
+                            <constraint firstItem="5at-hF-Xqh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wJf-sq-FId"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="63122548-lights-wallpapers" width="2880" height="1800"/>
+        <image name="glow" width="166" height="166"/>
+    </resources>
+</document>
